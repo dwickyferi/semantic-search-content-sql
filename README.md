@@ -19,6 +19,14 @@ This project implements semantic search functionality for SQL content using vect
 
 ### 1. Environment Setup
 
+Copy the `.env.example` file to `.env` and update the values:
+
+```bash
+cp .env.example .env
+```
+
+Then update the values in `.env` with your configuration.
+
 Create a `config.py` file in the root directory with your OpenAI API key:
 
 ```python
